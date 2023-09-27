@@ -684,6 +684,9 @@ display: none;
     }
 }
 @media (min-width:1200px) {
+    .w_10{
+        width: 27%;
+    }
     .sectn_pading{
         padding-top: 20%;
         padding-bottom: 5%;
