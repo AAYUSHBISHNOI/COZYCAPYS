@@ -134,11 +134,7 @@
    display: none;
 }
 .img_pstn_11 {
-    position: absolute;
-    bottom: -4%;
-    right: 0;
-    width: 20%;
-    z-index: 5;
+display: none;
 }
 .img_pstn_12{
     position: absolute;
@@ -231,12 +227,13 @@ display: none;
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 .accordion {
+    width: 80% !important;
     /* --bs-accordion-color: var(--bs-body-color); */
     --bs-accordion-bg: var(--bs-body-bg);
     --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
-    --bs-accordion-border-color: var(--bs-border-color);
-    --bs-accordion-border-width: var(--bs-border-width);
-    --bs-accordion-border-radius: var(--bs-border-radius);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-width: none;
+    --bs-accordion-border-radius: none;
     --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
     --bs-accordion-btn-padding-x: 1.25rem;
     --bs-accordion-btn-padding-y: 1rem;
@@ -283,13 +280,13 @@ display: none;
 .text_width{
     max-width: 400px;
 }
-.sectn_pading{
-    padding-top: 18%;
-    padding-bottom: 15%;
+.sectn_pading {
+    padding-top: 23%;
+    padding-bottom: 1%;
 }
 .skyimg{
     position: absolute;
-    top: -1%;
+    top: -0.5%;
 }
 .redimg{
     position: absolute;
@@ -338,9 +335,9 @@ display: none;
     .text_width{
         max-width: 500px;
     }
-    .sectn_pading{
+    .sectn_pading {
         padding-top: 18%;
-        padding-bottom: 15%;
+        padding-bottom: 1%;
     }
     .sctn_pading {
         padding-top: 90px;
@@ -585,9 +582,10 @@ display: none;
     }
     .img_pstn_11 {
         position: absolute;
-        bottom: -4%;
+        bottom: -8%;
         right: 0;
-        width: 24%;
+        width: 14%;
+        display: block;
     }
     .img_pstn_6 {
         position: absolute;
@@ -721,6 +719,18 @@ display: none;
     .min_h_screen{
         min-height: 65vh;
     }
+    .img_pstn_15 {
+        position: absolute;
+        right: 0;
+        top: 8%;
+        display: block;
+    }
+    .img_pstn_13 {
+        position: absolute;
+        right: -2%;
+        top: 71%;
+        display: block;
+    }
     .img_pstn_8 {
         position: absolute;
         top: 38%;
@@ -755,8 +765,8 @@ display: none;
     }
     .img_pstn_13 {
         position: absolute;
-        right: -3%;
-        top: 60%;
+        right: -1%;
+        top: 73%;
         display: block;
     }
     .img_pstn_14 {
@@ -804,8 +814,14 @@ display: none;
         top: 10%;
         display: block;
     }
+    .img_pstn_15 {
+        position: absolute;
+        right: 0;
+        top: 9%;
+        display: block;
+    }
     .sctn_pading {
-        padding-top: 160px;
+        padding-top: 93px;
         padding-bottom: 75px;
     }
     .img_pstn_17 {
