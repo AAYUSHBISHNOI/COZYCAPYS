@@ -1,6 +1,5 @@
 @import url(./root.css);
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Cherry+Cream+Soda&family=Chewy&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Cherry+Cream+Soda&family=Chewy&display=swap');*{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -15,6 +14,12 @@
 }
 .font_BalsamiqSans{
     font-family:"Balsamiq Sans";
+}
+.font_chery{
+    font-family: "Cherry Cream Soda";
+}
+.mt_12{
+    margin-left: -10px;
 }
 .bcg_cloud{
     background-image: url("/assets/img/png/sec_2_cloud.png");
